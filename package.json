@@ -1,0 +1,25 @@
+{
+  "name": "hegarty-house",
+  "version": "1.0.0",
+  "description": "Website Showcasing Holiday Home",
+  "main": "./backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HughGill/hegarty-house.git"
+  },
+  "keywords": [
+    "Holiday",
+    "Home",
+    "Shroove",
+    "Greencastle"
+  ],
+  "author": "Hugh Gill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HughGill/hegarty-house/issues"
+  },
+  "homepage": "https://github.com/HughGill/hegarty-house#readme"
+}
