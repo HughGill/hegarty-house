@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  height: 100%;
+}
 body,
 header,
 nav,
@@ -9,11 +12,26 @@ main,
 footer {
   padding: 0;
   margin: 0;
+  width: 100vw;
 }
-
+.App {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 section {
   height: 100vh;
   margin: 0;
+  padding: 0;
+  border: 1px grey outset;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .nav-item {
   margin-left: 20%;
@@ -21,14 +39,61 @@ section {
 .text-center {
   text-align: center;
 }
-
+#introduction > h3 {
+  margin: 0;
+}
 .contact-dets-holder {
   display: inline-flex;
+  width: 80%;
+  height: 270px;
+  margin-left: 10%;
+  border: 1px grey ridge;
+  border-radius: 15px;
+  background-color: black;
+  color: silver;
 }
 
-.intro-text,
+.contact-dets-holder > article > p {
+  margin: 0;
+}
+.intro {
+  width: 80%;
+  margin-left: 10%;
+  display: inline-flex;
+}
+.intro-image {
+  width: 60%;
+}
+.text {
+  width: 40%;
+}
+.intro-text {
+  width: 100%;
+}
 .contact-text {
-  font-size: 25px;
-  margin-left: 20%;
+  font-size: 20x;
+  margin-left: 0;
   margin-bottom: 0;
+}
+
+#contact > div {
+  padding: 0;
+}
+
+#contact > h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-information {
+  padding-left: 5%;
+  padding-top: 5%;
+  width: 40%;
+}
+
+.address {
+  padding-left: 20%;
+  padding-top: 5%;
+  width: 60%;
+  float: right;
 }
