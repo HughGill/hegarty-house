@@ -8,24 +8,24 @@ const Nav = (props) => {
       <div className="container-fluid">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to={"/"}>
+            <a className="nav-link" href="#">
               Home
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/introduction">
+            <a className="nav-link" href="#introduction">
               Introduction
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/demo">
+            <a className="nav-link" href="#demo">
               Images
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">
+            <a className="nav-link" href="#contact">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

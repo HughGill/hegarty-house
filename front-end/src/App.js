@@ -15,12 +15,6 @@ function App() {
       <Intro />
       <Images />
       <Contact />
-      <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/introduction" element={<Intro />}></Route>
-        <Route path="/demo" element={<Images />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
       <Footer />
     </>
   );
