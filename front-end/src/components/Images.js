@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Images = (props) => {
   return (
     <>
-      <section>
+      <section className="row" id="demo">
         <h3 className="text-center">House Photos</h3>
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
